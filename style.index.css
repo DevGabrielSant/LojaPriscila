@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@400;500 & display=swap');
+
+*{
+    margin: 0px;
+    padding-right: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: linear-gradient(10deg,rgb(227, 151, 227) , rgb(191, 0, 255));
+    background-attachment: fixed;
+    
+}
+
+html{
+    width: 100%;
+}
+.boxheader{
+    text-align: center;
+    width: 100%;
+}
+
+h3{
+    text-align: left;
+    font-size: 30px;
+}
+header{
+    background-image: linear-gradient( to bottom, #071c69,#1b2dcb);
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: 12%;
+    z-index: 10;
+    border-radius: 0px 0px 15px 15px;
+}
+
+#text{
+    background-image: linear-gradient( to bottom,#0417c6,#4552c9);
+    background-color: #1b2dcb;
+    width: 100%;
+    padding: 10% 0% 0% ;
+    position: absolute;
+    text-align: center;
+    margin-left: 50%;
+    transform: translate(-50%);
+    font-size: 25px;
+    margin-top:10px;
+    border-radius: 15px;
+        
+}
+
+button{
+    color: rgba(0, 0, 0, 0.784);
+    background-color: transparent;
+    margin:15px 0px ;
+    padding: 10px 10px;
+    border-radius: 78px;
+    border: solid 2px;
+}
+button:hover{
+    transition: all .6s ease-out;
+    border-color: rgb(10, 173, 254);
+    background-color:rgba(60, 34, 177, 0.756) ;
+}
+
+.content{
+    width: 33%;
+    height: 88%;
+    overflow: hidden;
+    position: absolute;
+    top: 60%;
+    left:50%;
+    transform: translate(-50%,-30%);
+    margin:10% 0%;
+    
+}
+a{
+    color: rgb(0, 0, 0);
+    padding: 0px 20px;
+}
+
+
+
+.slide img{ 
+    width:100%;
+    height:100%;
+    border-radius: 15px;
+}
+
+.navegation{
+    
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+    max-width:100% ;
+    
+    
+}
+
+.bar{
+    width: 70px;
+    height: 17px;
+    border: 2px solid white ;
+    border-radius: 20px;
+    margin: 7px;
+    cursor: pointer; /*para tornar clicavel*/
+    left: 0%;
+    
+}
+.bar:hover{
+    transition: all .4s ease-in;
+    background-color: white;
+}
+
+input{
+    display: none;
+}
+
+.slides{
+    display: flex;
+    width: 500%;
+    height: 100%;
+    
+}
+
+.slide{
+    width:20%;
+    transition: all .4 ease-out;
+    
+}
+
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+#slide2:checked ~ .s1{
+    margin-left: -20%;
+}
+#slide3:checked ~ .s1{
+    margin-left: -40%;
+}
+#slide4:checked ~ .s1{
+    margin-left: -60%;
+}
+#slide5:checked ~ .s1{
+    margin-left: -80%;
+}
+
+/*********************************************************************/
+.boxheader2{
+    text-align: center;
+    width: 100%;
+}
+
+.pgt{
+    width: 25%;
+    height: 89%;
+    overflow: hidden;
+    position: absolute;
+    top: 55%;
+    left:74.5%;
+    margin:0% 0%;
+    
+}
+
+.navegation2{
+    
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+    max-width:100% ;
+    
+    
+}
+
+.bar2{
+    width: 70px;
+    height: 17px;
+    border: 2px solid white ;
+    border-radius: 20px;
+    margin: 7px;
+    cursor: pointer; /*para tornar clicavel*/
+    left: 0%;
+    
+}
+.bar2:hover{
+    transition: all .4s ease-in;
+    background-color: white;
+}
+
+#slide6:checked ~ .s2{
+    margin-left: 0;
+}
+#slide7:checked ~ .s2{
+    margin-left: -20%;
+}
+#slide8:checked ~ .s2{
+    margin-left: -40%;
+}
+#slide9:checked ~ .s2{
+    margin-left: -60%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+

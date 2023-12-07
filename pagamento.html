@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+</head>
+<link rel="stylesheet"type=text/css href="style.pgt.css">
+<body>
+
+    <div class="boxheader">
+        <div>
+            <header >
+                <h3>Loja Da Pri</h3>
+                <nav>
+                    <a link rel="stylesheet" href="indexLoja.html">HOME</a>
+                    <a link rel="stylesheet" href="pagamento.html">PAGAMENTO</a>
+                    <a link rel="stylesheet" href="contato">CONTATO</a>
+                    <a link rel="stylesheet" href="login">LOGIN</a>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+/////////////////////////////////////////////////
+    
+    <div class="container">
+        <form  action="#" method="post" >
+            <h2>Preencha com seus dados</h2>
+
+            <div class="forms">
+                <label for="forms">Nome:
+                <input type="text" name="nome" required="" placeholder="Digite seu nome ">
+                </label>
+            </div>
+
+            <div class="forms">
+                <label for="forms">Email:
+                <input type="email" name="email" required="" placeholder=" Joaosilva@gmail.com">
+                </label>
+            </div>
+
+            <div class="forms">
+                <label for="forms">Senha
+                <input type="password" name="senha" required="" placeholder="8 dígitos">
+                </label>
+            </div>
+                
+            <div class="forms">
+                <label for="forms">Valor a pagar:
+                <input type="number" name="valor" required="" placeholder=" Ex:450,30">
+                </label>
+            </div>
+
+            <div class="forms">
+                <label for="forms">Data de compra:
+                <input type="data" name="data" required="" placeholder="Ex:18/12/2023 ">
+                </label>
+            </div>
+
+            <div class="forms">
+                <label for="forms"> WhatsApp:
+                <input type="telefone" name="telefone" required="" placeholder=" Ex:41 9 3333 5555">
+                </label>
+            </div>
+
+            <div class="forms">
+                <select name="parcelas">
+                    <option value=>Parcelas</option>
+                    <option value=parcela0> À vista </option>
+                    <option value=parcela1> 30 dias </option>
+                    <option value=parcela2> 60 dias </option>
+                    <option value=parcela3> 90 dias </option>
+                </select>
+            </div>
+            <hr>
+
+            <div class=button>
+                <input name=botao type="submit" value="Finalizar">
+  
+            </div>
+
+            
+        </form>
+    </div>
+    
+</body>
+</html>
